@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Village running!
+date: 2014-05-30
 ---
 
 Next to Mums House with family site , grandpa and others options using the _config.yml file in the root of your repository (shown below).
