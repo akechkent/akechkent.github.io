@@ -3,5 +3,6 @@ layout: post
 title: The Animal Farm!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-![_config.yml]({{ site.baseurl }}/images/fam.JPG)The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://g) on GitHub.
+This one represents the typical lands in a vllage where my roots are , its reall
+
+<img src="/images/fam.jpg" alt="drawing" width="700" height="400"/>
