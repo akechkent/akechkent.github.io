@@ -18,6 +18,8 @@ Currently, focusing on cloud computing using :
 - Heroku
 - mlab 
 - git, githubPages and  related technologies.
+- wordpress
+- wamp
 <p>In addition, I am learning android app development using android studio</p>
 ### Disclaimer
 Any views or opinions expressed here are strictly my own and blogging is not my job ; As this is a personal blog, not a corporate blog, I am solely responsible for all content published here.
