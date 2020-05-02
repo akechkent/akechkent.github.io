@@ -156,7 +156,6 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -202,7 +201,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $blue;
   font-size: 16px;
 
   @include mobile {
@@ -271,19 +270,38 @@ nav {
   }
 }
 
+
+.wrapper-footer1 {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
+  background-color: black;
+}
+
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  margin: 0 auto;
   background-color: $lightGray;
+  max-width: 740px;
+  width: 100%;
+  padding: 0 10px;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
 }
+.picha{
+  float: left;
+}
+.picha1{
+  background-color: $lightGray;
+  width: 100%;
+  padding: 0 10px;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
