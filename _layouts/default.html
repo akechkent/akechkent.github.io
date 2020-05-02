@@ -8,7 +8,6 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/assets/css/flexslider.css">
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
@@ -17,10 +16,10 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
+    <div class="wrapper-masthed"></div>
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}/assets/ken.JPG" /></a>
 
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
@@ -36,6 +35,8 @@
         </header>
       </div>
     </div>
+    <div id="main" role="main" class="container">
+      </div>
 
     <div id="main" role="main" class="container">
       {{ content }}
@@ -48,11 +49,6 @@
         </footer>
       </div>
     </div>
-    <script src="/assets/js/flexslider/jquery.flexslider.js"></script>
-    <script src="/assets/js/flexslider/jquery.flexslider-min.js"></script>
-	<!-- Initialisation Code  -->
-	<script src="/assets/js/app.js"></script>
-
 
     {% include analytics.html %}
   </body>
